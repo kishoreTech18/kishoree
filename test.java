@@ -1,13 +1,14 @@
 import java.util.Scanner;
-
-class test{
+class test3{
     public static void main(String args[])
     {
-        Scanner kishore = new Scanner(System.in);
-        int a = kishore.nextInt();
-        int b = kishore.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        int d = a*b*c;
+        int e = a+b+c;
 
-        System.out.print(a+b);
+        System.out.print(d/e);
     }
 }
-
